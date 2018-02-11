@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+html,
+body,
+.container {
+    background-color:black;
+    height: 100%;
+}
+.main-content {
+    background: url(../images/honeycomb-2866362_1280.jpg) repeat center center scroll;
+    background-size: cover;
+    width: 800px;
+    margin: auto; 
+    padding: 10px;   
+}
+header {
+    background-color: red;
+    width: 300px;
+    height: 90px;
+    color: white;
+    text-align: center;
+}
+h1 {
+    margin: auto;
+    padding-top: 22px;
+}
+.instructions {
+    background-color: beige;
+    width: 400px;
+    height: auto;  
+    padding: 15px 5px 30px 5px; 
+    margin-top: 15px;
+}
+.game-nbr-area {
+    width: 320px;
+    height: 130px;
+    margin-top: 15px; 
+    clear: both;
+}
+.game-nbr-box {
+    background-color: mediumseagreen;
+    width: 60%;
+    height: 120px;
+    padding: 5px;       
+    float: left;  
+}
+#game-nbr {
+    font-size: 25px;
+}
+.win-loss-box {
+    background-color: lightblue;
+    width: 30%;
+    height: 120px;
+    padding: 5px;     
+    margin-left: 4%;
+    float: left; 
+}
+#crystals {
+    background-color: transparent;
+    width: 400px;
+    height: 120px;
+    clear: both;
+}
+.crystal-image {
+    background-color: white; 
+    width: 80px;
+    height:100px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.player-score-header {
+    background-color: gray;
+    color: white;
+    width: 240px;
+    height: 30px;
+    padding-left: 5px;   
+    clear: both;
+}
+.player-score-header p {
+    margin-top: 10px;
+    padding-top: 5px;
+    clear: both;
+}
+.player-score-area {
+    background-color: gray;
+    color: white;
+    width: 240px;
+    height: 80px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#player-score {
+    font-size: 25px;        
+}
